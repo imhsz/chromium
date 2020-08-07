@@ -80,7 +80,7 @@ WebPreferences::WebPreferences()
       context_menu_on_mouse_up(false),
 #endif
       javascript_enabled(true),
-      web_security_enabled(true),
+      web_security_enabled(false),
       loads_images_automatically(true),
       images_enabled(true),
       plugins_enabled(true),

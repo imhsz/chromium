@@ -197,6 +197,7 @@ source_set("unit_tests") {
     "//chrome/browser/web_applications:web_applications_test_support",
     "//chrome/browser/web_applications/extensions:extensions",
     "//chrome/test:test_support",
+    "//chrome/common",
     "//content/public/browser",
     "//skia",
     "//testing/gmock",

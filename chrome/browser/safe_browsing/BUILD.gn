@@ -19,6 +19,7 @@ static_library("safe_browsing") {
     "//chrome/app:generated_resources",
     "//chrome/common",
     "//chrome/common:constants",
+    "//chrome/common:buildflags",
     "//components/browser_sync",
     "//components/enterprise/common:strings",
     "//components/keyed_service/content",

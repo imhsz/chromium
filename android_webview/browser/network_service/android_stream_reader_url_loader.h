@@ -65,7 +65,7 @@ class AndroidStreamReaderURLLoader : public network::mojom::URLLoader {
   };
 
   struct SecurityOptions {
-    bool disable_web_security = false;
+    bool disable_web_security = true;
     bool allow_cors_to_same_scheme = false;
   };
 
